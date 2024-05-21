@@ -8,7 +8,4 @@ COPY ./www /var/www/html/
 
 WORKDIR /var/www/html
 
-COPY ./www/package*.json ./
-RUN npm install
-
 EXPOSE 80
