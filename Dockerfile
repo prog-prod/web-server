@@ -8,4 +8,6 @@ COPY ./www /var/www/html/
 
 WORKDIR /var/www/html
 
+RUN chmod -R ugo+rw /var/www/html/storage
+
 EXPOSE 80
